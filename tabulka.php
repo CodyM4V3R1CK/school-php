@@ -60,7 +60,8 @@
 <?php
     $dni = array("Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok");
     $hodiny = array(0,1,2,3,4,5,6,7);
-    $rozvrh[2] [4] = "PFG";
+    $rozvrh[2] [0] = "PFG";
+    $rozvrh[2] [1] = "PFG";
 ?>
 
 <table border = 1>
