@@ -60,20 +60,21 @@
 <?php
     $dni = array("Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok");
     $hodiny = array(0,1,2,3,4,5);
+    $rozvrh[2] [4] = "PFG";
 ?>
 
 <table border = 1>
     <tr>
         <td>&nbsp;</td>
-        <?foreach ($hodiny as $hodina): ?>
+        <?foreach ($hodiny as $i => $hodina): ?>
             <td> <? echo $hodina;?> </td>
         <?endforeach;?>
     </tr>
-    <?foreach($dni as $den): ?>
+    <?foreach($dni as $i => $den): ?>
         <tr>
             <td> <? echo $den;?> </td>
-            <?foreach($hodiny as $hodina):?>
-            <td> <!-- <?echo $hodina;?> --> </td>
+            <?foreach($hodiny as $j => $hodina):?>
+            <td> <?echo @ $rozvrh [$i] [$j];?> <!-- <?echo $hodina;?> --> </td>
             <?endforeach;?>
         </tr>
     <? endforeach; ?>
