@@ -1,5 +1,5 @@
 <?php
-$teraz = date("H:i:s");
-$meno = "Matej";
+    $teraz = date("H:i:s");
+    $meno = "Matej";
 
-echo "Ahoj ".$meno,", teraz je ".$teraz;
+    echo "Ahoj ".$meno,", teraz je ".$teraz;
