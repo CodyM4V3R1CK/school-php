@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167c717a-6cb4-441a-94e9-6b8c791f0ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rozvrh/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rozvrh/rozvrh.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozvrh/tabulka1.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
       <workItem from="1601284837306" duration="255000" />
       <workItem from="1601888367329" duration="140000" />
       <workItem from="1602522096820" duration="2264000" />
+      <workItem from="1602655859115" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="add / rest of the table - IT'S WORKING">
       <created>1600841842672</created>

@@ -17,8 +17,8 @@
 	echo "<br>";
 ?>
 	
-	<a href="http://localhost/kubica/tabulka.php?jazyk=sk">SK</a>
-	<a href="http://localhost/kubica/tabulka.php?jazyk=en">EN</a>
+	<a href="http://localhost/rozvrh/tabulka.php?jazyk=sk">SK</a>
+	<a href="http://localhost/rozvrh/tabulka.php?jazyk=en">EN</a>
 
 <?php
 $servername = "localhost";
